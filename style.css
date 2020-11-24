@@ -10,7 +10,7 @@ html {
 }
 
 .background {
-  background-image: url("./img/ntcscClubPlaceholder.jpg");
+  background: #181818 url("./img/ntcscClubPlaceholder.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,6 +79,8 @@ body {
   border-bottom-color: #b40909;
 }
 
+/* Main Cover */
+
 main {
   display: flex;
   flex-direction: column;
@@ -91,6 +93,12 @@ main {
 
 .cover-container {
   max-width: 42em;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+}
+
+.alt-cover-container {
+  max-width: 75em;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50px;
 }
@@ -110,6 +118,12 @@ main {
   background-color: green;
 }
 
+/* Footer */
+
+.mastfoot {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 }
@@ -123,7 +137,7 @@ main {
   padding: 1rem;
 }
 
-/* Helpful Breakpoints from Tutorial
+/* Helpful Breakpoints
 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
