@@ -52,7 +52,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
-  position: absolute;
+  position: relative;
   left: 0;
 }
 
