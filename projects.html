@@ -14,13 +14,15 @@
     <link href="style.css" rel="stylesheet" />
 
     <!-- Import style sheet for specific page-->
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="projects-page.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+
+    <script src="projects.js"></script>
   </head>
 
   <!-- Overarching Body; Including Static Background -->
@@ -46,10 +48,22 @@
     <!-- Display flex affect only its immediate children, so here we apply it again,
          to affect the children of this div as well! -->
     <main role="main" class="alt-cover-container p-3">
-      <nav class="nav">
-        <a class="nav-link active" href="projects.html">Projects Home</a>
-        <a class="nav-link" href="projects/ntcsc-website.html">NTCSC Website</a>
-      </nav>
+      <div class="grid-container">
+        <div class="title">
+          <h1>NTCSC Projects</h1>
+        </div>
+        <div class="project-button">
+          <h1>View Projects</h1>
+          <h1 id = "arrow">▲</h1>
+        </div>
+        <div class="navbar" style="visibility:hidden">
+          <nav>
+            <a class="nav-link" href="#" id="project-link">Empty Link</a>
+            <a class="nav-link" href="#" id="project-link">Empty Link</a>
+            <a class="nav-link" href="#" id="project-link">Empty Link</a>
+          </nav>
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
