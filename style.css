@@ -13,7 +13,7 @@ html {
   background: #1f1f1f /*url("./img/ntcscClubPlaceholder.jpg")*/;
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-attachment: scroll; /* Placeholder. We'll decide if we want it scroll or fixed later. */
 }

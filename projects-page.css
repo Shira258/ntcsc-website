@@ -1,0 +1,35 @@
+main{
+    justify-content: start;
+}
+
+#title{
+    text-decoration: underline red 5px;
+}
+
+.projects{
+    min-height: 100%;
+}
+
+#collapsetoggle{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+.collapse, .collapsing{
+    margin: 1vh;
+}
+
+.collapse, .collapsing, .collapse div, .collapsing div{
+    text-align: left;
+    background-color: #969696;
+    border-radius: 15px;
+}
+
+.collapse h2, .collapsing h2{
+    text-decoration: underline red 4px;
+}
+
+button{
+    margin: 1vh;
+}
