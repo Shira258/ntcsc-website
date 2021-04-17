@@ -6,14 +6,14 @@ body,
 html {
   height: 100%;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .background {
-  background: #181818 url("./img/ntcscClubPlaceholder.jpg");
+  background: #1f1f1f /*url("./img/ntcscClubPlaceholder.jpg")*/;
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-attachment: scroll; /* Placeholder. We'll decide if we want it scroll or fixed later. */
 }
@@ -29,12 +29,13 @@ body {
 .navBar {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 /* Logo */
 
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -116,51 +117,6 @@ main {
   width: 100px;
   background-color: green;
 }
-
-.container{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.discord-bot{
-  width:600px;
-  border: 5px grey solid;
-  border-radius: 10px
-}
-
-.project-name{
-  font-weight: bolder;
-  text-align: left;
-  padding-left:30px;
-}
-
-.project-status{
-  font-weight: bold;
-  text-align: left;
-  padding-left: 30px;
-}
-
-.description{
-  text-align: left;
-  padding-left: 30px;
-  font-size: 20px;
-}
-
-.button{
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(150, 150, 150, 1);
-  font-size: large;
-  margin-right: 50px;
-  margin-top: 20px;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-.button:hover{
-  color: rgba(255, 255, 255, 1);
-}
-
 
 /* Footer */
 
