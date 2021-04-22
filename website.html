@@ -18,7 +18,7 @@
     <link href="style.css" rel="stylesheet" />
 
     <!-- Import style sheet for specific page-->
-    <link rel="stylesheet" href="projects-page.css" />
+    <link rel="stylesheet" href="projects.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -50,38 +50,28 @@
         </nav>
       </header>
     </div>
-
+    <!-- Display flex affect only its immediate children, so here we apply it again,
+         to affect the children of this div as well! -->
     <main role="main" class="alt-cover-container p-3">
-      <h1 id="title">NTCSC Projects</h1>
-      <div class="projects">
-        <div style="padding:1vh"></div>
-        <p>
-          <button class="btn btn-primary" id="collapsetoggle" type="button" data-toggle="collapse" data-target="#ntcscwebsite" aria-expanded="false" aria-controls="collapseExample">
-            NTCSC Website
-          </button>
-          <button class="btn btn-primary" id="collapsetoggle" type="button" data-toggle="collapse" data-target="#discordbot" aria-expanded="false" aria-controls="collapseExample">
-            Discord Bot
-          </button>
-        </p>
+      <!-- CONTENTS OF THIS PAGE GO HERE-->
+      <div class="container">
+        <img class="project-image" src="https://i0.hippopx.com/photos/511/619/772/computer-computer-code-screen-monitor-preview.jpg" alt="my sample image" >
+        <div>
+          <h1 class="project-name">Project: NTCSC Website</h1>
+          <h2 class="project-status">Status: <span style="color: #82ff91;">Complete</span><h2>
 
-        <div class="collapse show" id="ntcscwebsite">
-          <div class="card card-body">
-            <h2>NTCSC Website</h2>
-            <a href="website.html">View Project</a>
-              This project is the website you are currently viewing right now. We created a website for the computer science club for people like you to learn more about us.
+          <p class="description">
+            For our first project, we coded a website for the computer science club. Using HTML and CSS we created a website to allow people to learn more about us. As you can see on the navigation bar, we included pages for announcements, about us, projects, FAQ, and how to contact us. For a few members, they learned how to use HTML and CSS while making this website.
+          </p>
+
+          <div class="container">
+              <a class="button" href="projects.html">Go Back</a>
+              <a class="button" href="https://github.com/RyanVuscan/ntcsc-website" target="_blank">Download Code</a>
           </div>
-        </div>  
-        
-        <div class="collapse" id="discordbot">
-          <div class="card card-body">
-            <h2>Discord Bot</h2>
-            <a href="discordbot.html">View Project</a>
-              This project is a discord bot that you would use in your very own discord server for viewing your North Toronto school schedule. 
-          </div>
-        </div>         
+
+        </div>
       </div>
-    </main>
-
+    </main class="projects">
     <!-- Footer -->
     <footer>
       <p>
