@@ -6,11 +6,11 @@ body,
 html {
   height: 100%;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .background {
-  background: #181818 url("./img/ntcscClubPlaceholder.jpg");
+  background: #1f1f1f /*url("./img/ntcscClubPlaceholder.jpg")*/;
   height: 100%;
   background-position: center;
   background-repeat: repeat;
@@ -35,7 +35,7 @@ body {
 /* Logo */
 
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
-  position: absolute;
+  position: relative;
   left: 0;
 }
 

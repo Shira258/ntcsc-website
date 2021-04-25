@@ -1,0 +1,57 @@
+main{
+	padding-bottom: 50px;
+}
+
+.title{
+	text-decoration: underline red 5px;
+	margin-bottom: 50px;
+}
+
+.aboutus{
+	min-height: 100%
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.maininfo{
+	margin-bottom: 50px;
+	padding-right: 120px;
+	padding-left: 120px
+}
+
+.github{
+	background-color: rgba(154, 109, 178);
+	border-radius: 15px;
+	padding: 15px;
+	margin-right: 50px;
+	border: 5px white solid;
+}
+
+.discord{
+	background-color: rgba(80, 96, 155, 1);
+	border-radius: 15px;
+	padding: 15px;
+	border: 5px white solid;
+}
+
+.github-image{
+	margin-bottom: 10px;
+}
+
+.button{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: large;
+  margin-top: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  color: rgba(255, 255, 255, 1);
+}
+
