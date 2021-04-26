@@ -1,0 +1,21 @@
+#title{
+    text-decoration: underline red 5px;
+    margin-bottom: 40px;
+    margin-top: -300px;
+}
+
+.collapse h2, .collapsing h2{
+    text-decoration: underline red 4px;
+    color: black;
+}
+
+#announcement1{
+  text-align: left;
+  color: black;
+}
+
+.collapse, .collapsing, .collapse div, .collapsing div{
+    text-align: left;
+    background-color: white;
+    border-radius: 15px;
+}
