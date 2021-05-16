@@ -1,0 +1,31 @@
+.page-title{
+	text-decoration: underline red 5px;
+	margin-bottom: 30px;
+}
+
+.faq{
+	min-height: 100%
+}
+
+.maininfo{
+	margin-bottom: 50px;
+	padding-right: 100px;
+	padding-left: 100px
+}
+
+.questions{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+	background-color: #969696;
+}
+
+.question-title{
+	font-weight: bold;
+	text-decoration: underline;
+
+}
