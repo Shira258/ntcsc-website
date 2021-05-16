@@ -1,0 +1,92 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact-info{
+    grid-column: 2;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+input[type=text], textarea, input[type=email]{
+    width: 80%;
+}
+
+h1{
+    float: left;
+}
+input, textarea{
+    float: left;
+    margin: 5px;
+    text-align: left;
+    padding: 10px;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    background: rgba(241, 238, 238, 0.12);
+    border: none;
+    color: white;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}
+
+div{
+    text-align: left;
+}
+
+#btn{ 
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+#btn:hover, .submit:hover{
+    background-color: black;
+    color: white;
+}
+
+.submit{
+    border: none; 
+}
+
+hr{
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+#discordlogo{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#instagramlogo{
+    max-width: 10%;
+    max-height: 10%;
+    margin: 10px;
+}
+
+#emailicon{
+    max-width: 10%;
+    max-height: 10%;
+    margin: 10px;
+}
+
+a { background-color: none;}
+
+#btn_link, #btn_link:hover{
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+
+#btn_link:hover { 
+    color: white; 
+}
+
+.modal-title, .modal-body{
+    color: black;
+}
